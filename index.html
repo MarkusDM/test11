@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=`, initial-scale=1.0">
+  <link rel="stylesheet" href="./build/css/style.min.css">
+  <!-- <meta http-equiv="refresh" content="1;URL=./app/pages.html" /> -->
+  <title>UX/UI</title>
+</head>
+
+<style>
+  a,
+  h1,
+  textarea {
+    width: 100%;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 2rem;
+    height: auto;
+  }
+
+  h1 {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-top: 2rem;
+    width: 100%;
+    text-align: right;
+  }
+
+  main {
+    width: calc(100% - 25rem);
+  }
+
+  a {
+    text-align: right;
+    padding: 0.5rem;
+    display: block;
+    transition: 0.3s;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+  .pages {
+    position: fixed;
+    width: 23rem;
+    top: 0;
+    right: 15rem;
+    text-align: right;
+    padding: 10rem 0;
+  }
+
+  h1,
+  textarea,
+  .ui-block {
+    margin-bottom: 2rem;
+    
+  }
+  textarea {
+    width: 50%;
+    margin-left: auto;
+  }
+  .ui-block {
+    margin-bottom: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+</style>
+
+<body style="min-height: 200vh;">
+  <div class="container text" style="display: flex; position: relative; padding: 10rem 0;">
+    <main>
+
+
+      <div class="ui-block">
+   
+        <h1>LOGO</h1>
+        <textarea cols="30" rows="5">
+          <a href="./index.html" class="logo">
+            <img src="./img/logo.svg" alt="logo">
+          </a>
+        </textarea>
+
+        <a href="#!" class="logo">
+          <img src="./build/img/logo.svg" alt="logo">
+        </a>
+    
+      </div>
+
+
+      <div class="ui-block">
+  
+        <h1>title - 45px_120%_800_Exo 2</h1>
+        <textarea cols="30" rows="5">
+          <div class="title"> услуги <span class="lighter">услуги</span> </div>
+        </textarea>
+        <div class="title"> услуги <span class="lighter">услуги</span> </div>
+
+   
+      </div>
+
+      <div class="ui-block">
+    
+        <h1>sub-title - 20px_120%_300_Exo 2</h1>
+        <textarea cols="30" rows="5">
+          <div class="sub-title">Доставка и оплата</div>
+        </textarea>
+
+        <div class="sub-title">Доставка и оплата</div>
+      </div>
+
+      <div class="ui-block">
+        <h1>button - dark</h1>
+        <textarea cols="30" rows="5">
+          <a class="btn" href="#">
+            <span>Показать ещё</span>
+          </a>
+        </textarea>
+
+        <a class="btn" href="#">
+          <span>Показать ещё</span>
+        </a>
+      </div>
+
+      <div class="ui-block">
+        <h1>button - light</h1>
+        <textarea cols="30" rows="5">
+          <a class="btn btn__light" href="#">
+            <span>Показать ещё</span>
+          </a>
+        </textarea>
+        <a class="btn btn__light" href="#">
+          <span>Показать ещё</span>
+        </a>
+      </div>
+
+      <div class="ui-block">
+        <h1>button - arr0w</h1>
+        <textarea cols="30" rows="5">
+          <a class="btn btn__arrow" href="#">
+            <span></span>
+          </a>
+        </textarea>
+        <a class="btn btn__arrow" href="#">
+          <span style="background-image: url(./build/img/icon/arrow-btn.svg);"></span>
+        </a></div>
+
+
+      <div class="ui-block">
+        <h1>button - eye</h1>
+        <textarea cols="30" rows="5">
+          <a class="btn btn__eye" href="#">
+            <span></span>
+          </a>
+        </textarea>
+        <a class="btn btn__eye" href="#">
+          <span style="background-image: url(./build/img/icon/eye.svg);"></span>
+        </a>
+        </div>
+
+        <div class="ui-block">
+          <h1>Фон</h1>
+          <textarea cols="30" rows="5">
+            <div class="bg-filter"></div>
+          </textarea>
+          <div class="bg-filter" style="padding: 5rem;">bg-filter</div>
+        </div>
+
+        <div class="ui-block">
+          <h1>Фон</h1>
+          <textarea cols="30" rows="5">
+            <div class="bg-filter bg-filter__dark"></div>
+          </textarea>
+          <div class="bg-filter bg-filter__dark" style="padding: 5rem;">bg-filter bg-filter__dark</div>
+        </div>
+
+        
+        <div class="ui-block">
+          <h1>text  - 18px 150% 400 Euclid Circular A</h1>
+          <textarea cols="30" rows="5">
+            <div class="text">
+              <p>text</p>
+              <span>text</span>
+            </div>
+          </textarea>
+          <div class="text">
+            <p>text content text content text content</p>
+            <span>text content text content text content</span>
+            <p>text content text content text content</p>
+          </div>
+        </div>
+
+        <div class="ui-block">
+          <h1>Зеленый</h1>
+          <textarea cols="30" rows="5">
+            <div class="green">
+              Lorem
+            </div>
+          </textarea>
+          <div class="title green">
+            Lorem, ipsum.
+          </div>
+        </div>
+
+    </main>
+    <div class="pages">
+      <h1>Главная</h1>
+      <a href="./build/index.html">Главня</a>
+
+    </div>
+  </div>
+</body>
+
+</html>

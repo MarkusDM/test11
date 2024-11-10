@@ -1,0 +1,21 @@
+{
+    "name": "gulp-project",
+    "version": "1.0.0",
+    "description": "Basic Gulp setup",
+    "main": "gulpfile.js",
+    "scripts": {
+      "start": "gulp"
+    },
+    "devDependencies": {
+      "browser-sync": "^2.27.11",
+      "del": "^7.0.0",
+      "gulp": "^4.0.2",
+      "gulp-autoprefixer": "^8.0.0",
+      "gulp-clean-css": "^4.3.0",
+      "gulp-imagemin": "^8.0.0",
+      "gulp-sass": "^5.1.0",
+      "gulp-webp": "^5.1.0",
+      "sass": "^1.65.1"
+    }
+  }
+  
