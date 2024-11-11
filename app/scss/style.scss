@@ -1,9 +1,5 @@
-@import "./general/normalize";
-@import "./general/fonts";
-@import "./general/set";
-@import "./general/elements";
-
-
-
-
-@import "./blocks/media";
+@use "./general/normalize";
+@use "./general/fonts";
+@use "./general/set";
+@use "./general/elements";
+@use "./blocks/header";
