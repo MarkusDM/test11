@@ -1,5 +1,5 @@
-@use "./general/normalize";
-@use "./general/fonts";
-@use "./general/set";
-@use "./general/elements";
-@use "./blocks/header";
+@use "./general/normalize" as *;
+@use "./general/fonts" as *;
+@use "./general/set" as *;
+@use "./general/elements" as *;
+@use "./blocks/header" as *;
